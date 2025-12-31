@@ -1,0 +1,70 @@
+body{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  background: #f4f4f4;
+}
+.header {
+  background-color: #358e5e;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+}
+.header a{
+  color:white;
+  margin-left: 15px;
+  text-decoration: none;
+
+}
+.pricing
+{
+  text-align: center  ;
+  padding: 40px;
+}
+.plans {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.card{
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+  width: 250px;
+  background: #ffffff;
+}
+.cardActive {
+  border: 2px solid #033b13;
+  
+}
+.card button{
+  background-color: #074229;
+  color: white;
+  border:none ;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;  
+  width: 100%;
+  font-size: 16px;
+}
+.comparison {
+  padding: 40px;
+  text-align: center;
+}
+.table {
+  width: 80%;
+  margin: 0 auto;
+ 
+}
+td, th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+.footer {
+  background-color: #408969;
+  color: white;
+  text-align: center;
+  padding: 10px ;
+  
+}

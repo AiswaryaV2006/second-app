@@ -1,0 +1,52 @@
+.container {
+  text-align: center;
+    padding: 40px;
+}
+.title {
+  font-size: 36px;
+    margin-bottom: 20px;
+}
+.plans {
+  display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.cardActive {
+  border: 2px solid #0070f3;
+    border-radius: 10px;
+    padding: 20px;
+    width: 250px;
+    background-color: #f0f8ff;
+}
+.card {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    width: 250px;
+    background-color: #ffffff;
+}
+.price {
+  font-size: 24px;
+    margin: 10px 0;
+    
+}
+.features {
+  text-align: left;
+    margin: 20px 0;
+}
+ul {
+  list-style-type: none;
+    padding: 0;
+}
+li {
+    margin: 5px 0;
+}
+.button {
+    background-color: #0070f3;
+    margin-top: 15px;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
